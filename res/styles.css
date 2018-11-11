@@ -32,6 +32,15 @@ body {
   font-size: 11px;
   font-family: Verdana, Arial;
   font-weight: 600;
+  text-align: end;
+}
+
+.b-footer a {
+  color: inherit;
+}
+
+.b-footer a:hover {
+  text-decoration: none;
 }
 
 .b-content {
@@ -79,6 +88,7 @@ body {
   text-shadow: 2px 3px #3151b5;
   font-style: italic;
   font-family: Arial;
+  text-align: end;
   color: #eff7ff;
 }
 
@@ -270,5 +280,6 @@ body {
   }
   .e-content-welcome {
     justify-content: center;
+    text-align: center;
   }
 }
