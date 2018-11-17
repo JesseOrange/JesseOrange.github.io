@@ -15,6 +15,7 @@ let Engine = {
 
       app = newEl('a', {
         href: data.url || '#',
+        tabindex: '0',
         class: 'b-app',
         $children: [
           'img', {
