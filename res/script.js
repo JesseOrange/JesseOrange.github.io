@@ -32,7 +32,7 @@ let Engine = {
               },
               'div', {
                 class: 'e-app-description',
-                $content: data.description || ''
+                $content: data.description ? data.description.replace(/\\n/g, '<br>') : ''
               }
             ]
           }
